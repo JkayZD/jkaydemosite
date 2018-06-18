@@ -1,0 +1,42 @@
+@media screen and (max-width:575px){
+  nav ul li {
+    float: none;
+    display: block;
+    text-align: none;
+    line-height: 3.2;
+    right: 20px;
+    margin-left: 40px !important;
+  }
+
+  nav #logo {
+    margin-right: 30px;
+  }
+
+
+  nav {
+    background-color: black;
+    top: 0 !important;
+    justify-content: flex-end !important;
+    display: none !important;
+  }
+
+  nav #closemenu{
+    display: block !important;
+    font-size: 16px !important;
+    z-index: 350 !important;
+    color: white !important;
+    right: 20px !important;
+    top: 10px;
+    float: right;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .mobile{
+    /* display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important; */
+    display: block !important;
+    z-index: 400;
+  }
+}
